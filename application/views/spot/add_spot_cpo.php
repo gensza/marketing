@@ -35,8 +35,7 @@
                                                         </div>
                                                         <div class="col-lg-4 col-5">
                                                             <div class="form-group">
-                                                                <input type="date" name="leki_date" id="card-number"
-                                                                    class="form-control" style="width: 150px;">
+                                                                <input type="date" name="leki_date" id="card-number" class="form-control" style="width: 150px;">
                                                             </div>
                                                         </div>
                                                         <div class="col-1 mt-1 mx-sm-2">
@@ -44,8 +43,7 @@
                                                         </div>
                                                         <div class="col-lg-4 col-5">
                                                             <div class="form-group ml-1">
-                                                                <input type="date" name="lekf_date" id="card-number"
-                                                                    class="form-control" style="width: 150px;">
+                                                                <input type="date" name="lekf_date" id="card-number" class="form-control" style="width: 150px;">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -57,16 +55,13 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-10 col-9">
-                                                            <textarea class="form-control" name="sp_notes"
-                                                                id="example-textarea" rows="3"
-                                                                placeholder="Write some note.."></textarea>
+                                                            <textarea class="form-control" name="sp_notes" id="example-textarea" rows="3" placeholder="Write some note.."></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="custom-control custom-radio custom-control-inline mt-3">
                                                         <input type="radio" class="custom-control-input" checked>
-                                                        <label class="custom-control-label font-15 font-weight-bold"
-                                                            for="BillingOptRadio1">Cara Pembayaran</label>
+                                                        <label class="custom-control-label font-15 font-weight-bold" for="BillingOptRadio1">Cara Pembayaran</label>
                                                     </div>
                                                     <div class="row mt-2">
                                                         <div class="row col-6">
@@ -77,8 +72,7 @@
                                                             </div>
                                                             <div class="col-7">
                                                                 <div class="form-group ml-1">
-                                                                    <input type="number" name="cp_dp" id="card-number"
-                                                                        class="form-control">
+                                                                    <input type="number" name="cp_dp" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -96,9 +90,7 @@
                                                             </div>
                                                             <div class="col-10">
                                                                 <div class="form-group mx-sm-4">
-                                                                    <input type="date" name="cp_dp_date"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 150px;">
+                                                                    <input type="date" name="cp_dp_date" id="card-number" class="form-control" style="width: 150px;">
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -109,16 +101,13 @@
                                                             <label for="">Notes</label>
                                                         </div>
                                                         <div class="col-10">
-                                                            <textarea class="form-control" name="cp_notes"
-                                                                id="example-textarea" rows="3"
-                                                                placeholder="Write some note.."></textarea>
+                                                            <textarea class="form-control" name="cp_notes" id="example-textarea" rows="3" placeholder="Write some note.."></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="custom-control custom-radio custom-control-inline mt-3">
                                                         <input type="radio" class="custom-control-input" checked>
-                                                        <label class="custom-control-label font-15 font-weight-bold"
-                                                            for="BillingOptRadio1">Kualitas</label>
+                                                        <label class="custom-control-label font-15 font-weight-bold" for="BillingOptRadio1">Kualitas</label>
                                                     </div>
                                                     <div class="row">
                                                         <div class="row col-6 mt-2">
@@ -129,8 +118,7 @@
                                                             </div>
                                                             <div class="col-7">
                                                                 <div class="form-group ml-1">
-                                                                    <input type="number" name="k_ffa_max"
-                                                                        id="card-number" class="form-control">
+                                                                    <input type="text" name="k_ffa_max" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -148,8 +136,7 @@
                                                             </div>
                                                             <div class="col-7">
                                                                 <div class="form-group ml-1">
-                                                                    <input type="number" name="k_mi_max"
-                                                                        id="card-number" class="form-control">
+                                                                    <input type="text" name="k_mi_max" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -168,8 +155,7 @@
                                                         </div>
                                                         <div class="col-10">
                                                             <div class="form-group">
-                                                                <input type="text" name="k_dobi_min" id="card-number"
-                                                                    class="form-control">
+                                                                <input type="text" name="k_dobi_min" id="card-number" class="form-control">
                                                             </div>
                                                         </div>
                                                     </div> <!-- end row -->
@@ -179,16 +165,13 @@
                                                             <label for="">Notes</label>
                                                         </div>
                                                         <div class="col-10">
-                                                            <textarea class="form-control" name="k_notes"
-                                                                id="example-textarea" rows="3"
-                                                                placeholder="Write some note.."></textarea>
+                                                            <textarea class="form-control" name="k_notes" id="example-textarea" rows="3" placeholder="Write some note.."></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="custom-control custom-radio custom-control-inline mt-3">
                                                         <input type="radio" class="custom-control-input" checked>
-                                                        <label class="custom-control-label font-15 font-weight-bold"
-                                                            for="BillingOptRadio1">Persyaratan</label>
+                                                        <label class="custom-control-label font-15 font-weight-bold" for="BillingOptRadio1">Persyaratan</label>
                                                     </div>
                                                     <h4 class="header-title mt-2">FFA PENALTY</h4>
                                                     <div class="row">
@@ -200,9 +183,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_ffa1"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;">
+                                                                    <input type="number" name="pfp_ffa1" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -212,21 +193,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_min1"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;">
+                                                                    <input type="number" name="pfp_min1" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_rp1" id="card-number"
-                                                                        class="form-control">
+                                                                    <input type="number" name="pfp_rp1" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -236,10 +213,8 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pfp_ppn1"
-                                                                        class="custom-control-input" id="customCheck1">
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck1">PPN</label>
+                                                                    <input type="checkbox" name="pfp_ppn1" class="custom-control-input" id="customCheck1">
+                                                                    <label class="custom-control-label" for="customCheck1">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -254,9 +229,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_ffa2"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;">
+                                                                    <input type="number" name="pfp_ffa2" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -266,21 +239,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_min2"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;">
+                                                                    <input type="number" name="pfp_min2" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_rp2" id="card-number"
-                                                                        class="form-control">
+                                                                    <input type="number" name="pfp_rp2" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -290,10 +259,8 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pfp_ppn2"
-                                                                        class="custom-control-input" id="customCheck2">
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck2">PPN</label>
+                                                                    <input type="checkbox" name="pfp_ppn2" class="custom-control-input" id="customCheck2">
+                                                                    <label class="custom-control-label" for="customCheck2">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -308,9 +275,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_ffa3"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;">
+                                                                    <input type="number" name="pfp_ffa3" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -340,8 +305,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_md1" id="card-number"
-                                                                        class="form-control" style="width: 65px;">
+                                                                    <input type="number" name="pdb_md1" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -351,21 +315,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_min1"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;">
+                                                                    <input type="number" name="pdb_min1" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_rp1" id="card-number"
-                                                                        class="form-control">
+                                                                    <input type="number" name="pdb_rp1" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -375,10 +335,8 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pdb_ppn1"
-                                                                        class="custom-control-input" id="customCheck3">
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck3">PPN</label>
+                                                                    <input type="checkbox" name="pdb_ppn1" class="custom-control-input" id="customCheck3">
+                                                                    <label class="custom-control-label" for="customCheck3">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -393,8 +351,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_md2" id="card-number"
-                                                                        class="form-control" style="width: 65px;">
+                                                                    <input type="number" name="pdb_md2" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -404,21 +361,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_min2"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;">
+                                                                    <input type="number" name="pdb_min2" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_rp2" id="card-number"
-                                                                        class="form-control">
+                                                                    <input type="number" name="pdb_rp2" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -428,10 +381,8 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pdb_ppn2"
-                                                                        class="custom-control-input" id="customCheck4">
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck4">PPN</label>
+                                                                    <input type="checkbox" name="pdb_ppn2" class="custom-control-input" id="customCheck4">
+                                                                    <label class="custom-control-label" for="customCheck4">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -446,8 +397,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_md3" id="card-number"
-                                                                        class="form-control" style="width: 65px;">
+                                                                    <input type="number" name="pdb_md3" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -457,21 +407,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_min3"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;">
+                                                                    <input type="number" name="pdb_min3" id="card-number" class="form-control" style="width: 65px;">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_rp3" id="card-number"
-                                                                        class="form-control">
+                                                                    <input type="number" name="pdb_rp3" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -481,10 +427,8 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pdb_ppn3"
-                                                                        class="custom-control-input" id="customCheck5">
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck5">PPN</label>
+                                                                    <input type="checkbox" name="pdb_ppn3" class="custom-control-input" id="customCheck5">
+                                                                    <label class="custom-control-label" for="customCheck5">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -496,9 +440,7 @@
                                                             <label for="">Notes</label>
                                                         </div>
                                                         <div class="col-10">
-                                                            <textarea class="form-control" name="mip_notes"
-                                                                id="example-textarea" rows="3"
-                                                                placeholder="Write some note.."></textarea>
+                                                            <textarea class="form-control" name="mip_notes" id="example-textarea" rows="3" placeholder="Write some note.."></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="row mt-1">
@@ -506,9 +448,7 @@
                                                             <label for="">Lainya</label>
                                                         </div>
                                                         <div class="col-10">
-                                                            <textarea class="form-control" name="mip_lainya"
-                                                                id="example-textarea" rows="3"
-                                                                placeholder="Write some note.."></textarea>
+                                                            <textarea class="form-control" name="mip_lainya" id="example-textarea" rows="3" placeholder="Write some note.."></textarea>
                                                         </div>
                                                     </div>
 
@@ -525,56 +465,48 @@
                                                                     <tr>
                                                                         <td>Penjual :</td>
                                                                         <td><?= $company['company_name'] ?></td>
-                                                                        <input type="hidden" name="id_company"
-                                                                            value="<?= $id_company ?>">
+                                                                        <input type="hidden" name="id_company" value="<?= $id_company ?>">
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Pembeli : </td>
                                                                         <td><?= $mitra_name['mitra_name'] ?></td>
-                                                                        <input type="hidden" name="id_mitra"
-                                                                            value="<?= $id_mitra ?>">
+                                                                        <input type="hidden" name="id_mitra" value="<?= $id_mitra ?>">
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Tanggal :</td>
                                                                         <td><?= date('d-m-Y', strtotime($spot_date)) ?>
                                                                         </td>
-                                                                        <input type="hidden" name="spot_date"
-                                                                            value="<?= $spot_date ?>">
+                                                                        <input type="hidden" name="spot_date" value="<?= $spot_date ?>">
                                                                     </tr>
                                                                     <tr>
                                                                         <td>jenis Produk : </td>
                                                                         <td><?= $product_type['product_name'] ?></td>
-                                                                        <input type="hidden" name="id_product"
-                                                                            value="<?= $id_product ?>">
+                                                                        <input type="hidden" name="id_product" value="<?= $id_product ?>">
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Kuantitas : </td>
                                                                         <td><?= number_format($quantity, 0, ',', '.') ?>
                                                                         </td>
-                                                                        <input type="hidden" name="quantity"
-                                                                            value="<?= $quantity ?>">
+                                                                        <input type="hidden" name="quantity" value="<?= $quantity ?>">
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Harga Satuan&nbsp;: </td>
                                                                         <td>Rp.
                                                                             <?= number_format($unit_price, 2, ',', '.'); ?>
                                                                         </td>
-                                                                        <input type="hidden" name="unit_price"
-                                                                            value="<?= $unit_price ?>">
+                                                                        <input type="hidden" name="unit_price" value="<?= $unit_price ?>">
                                                                     </tr>
                                                                     <tr>
                                                                         <td>Satuan : </td>
                                                                         <td><?= $unit ?></td>
-                                                                        <input type="hidden" name="unit"
-                                                                            value="<?= $unit ?>">
+                                                                        <input type="hidden" name="unit" value="<?= $unit ?>">
                                                                     </tr>
                                                                     <tr>
                                                                         <td>PPN :</td>
                                                                         <td><?php if ($ppn == 'on') {
                                                                                 echo "10 %";
                                                                             } ?></td>
-                                                                        <input type="hidden" name="ppn"
-                                                                            value="<?= $ppn ?>">
+                                                                        <input type="hidden" name="ppn" value="<?= $ppn ?>">
                                                                     </tr>
                                                                     <tr>
                                                                         <th>Pembayaran&nbsp;:</th>

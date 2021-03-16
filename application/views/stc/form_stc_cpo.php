@@ -28,14 +28,10 @@
 
                                                 <div class="border col-lg-6 col-12 p-3 mb-3 rounded">
                                                     <input type="hidden" name="id_ltc" value="<?= $ltc['id_ltc'] ?>">
-                                                    <input type="hidden" name="id_product"
-                                                        value="<?= $ltc['id_product'] ?>">
-                                                    <input type="hidden" name="id_company"
-                                                        value="<?= $ltc['id_company'] ?>">
-                                                    <input type="hidden" name="id_mitra"
-                                                        value="<?= $ltc['id_mitra'] ?>">
-                                                    <input type="hidden" name="quantity_ltc" id="k_ltc"
-                                                        value="<?= $ltc['quantity'] ?>">
+                                                    <input type="hidden" name="id_product" value="<?= $ltc['id_product'] ?>">
+                                                    <input type="hidden" name="id_company" value="<?= $ltc['id_company'] ?>">
+                                                    <input type="hidden" name="id_mitra" value="<?= $ltc['id_mitra'] ?>">
+                                                    <input type="hidden" name="quantity_ltc" id="k_ltc" value="<?= $ltc['quantity'] ?>">
 
                                                     <div class="row mt-1">
                                                         <div class="col-lg-2 col-4">
@@ -45,8 +41,7 @@
                                                         </div>
                                                         <div class="col-lg-4 col-6">
                                                             <div class="form-group">
-                                                                <input type="date" name="stc_date" id="card-number"
-                                                                    class="form-control" style="width: 150px;" required>
+                                                                <input type="date" name="stc_date" id="card-number" class="form-control" style="width: 150px;" required>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-2 col-4">
@@ -56,9 +51,7 @@
                                                         </div>
                                                         <div class="col-lg-4 col-6">
                                                             <div class="form-group">
-                                                                <input type="number" class="form-control" id="k_stc"
-                                                                    name="quantity_stc" placeholder="isi kuantitas .."
-                                                                    required>
+                                                                <input type="number" class="form-control" id="k_stc" name="quantity_stc" placeholder="isi kuantitas .." required>
                                                             </div>
                                                         </div>
                                                     </div> <!-- end row -->
@@ -72,8 +65,7 @@
                                                         </div>
                                                         <div class="col-lg-4 col-5">
                                                             <div class="form-group">
-                                                                <input type="date" name="wp_1" id="card-number"
-                                                                    class="form-control" style="width: 150px;">
+                                                                <input type="date" name="wp_1" id="card-number" class="form-control" style="width: 150px;">
                                                             </div>
                                                         </div>
 
@@ -82,8 +74,7 @@
                                                         </div>
                                                         <div class="col-lg-4 col-5">
                                                             <div class="form-group">
-                                                                <input type="date" name="wp_2" id="card-number"
-                                                                    class="form-control" style="width: 150px;">
+                                                                <input type="date" name="wp_2" id="card-number" class="form-control" style="width: 150px;">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -95,16 +86,13 @@
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-10 col-9">
-                                                            <textarea class="form-control" name="sp"
-                                                                id="example-textarea" rows="3"
-                                                                placeholder="Write some note.."><?= $ltc['sp_notes'] ?></textarea>
+                                                            <textarea class="form-control" name="sp" id="example-textarea" rows="3" placeholder="Write some note.."><?= $ltc['sp_notes'] ?></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="custom-control custom-radio custom-control-inline mt-3">
                                                         <input type="radio" class="custom-control-input" checked>
-                                                        <label class="custom-control-label font-15 font-weight-bold"
-                                                            for="BillingOptRadio1">Pembayaran</label>
+                                                        <label class="custom-control-label font-15 font-weight-bold" for="BillingOptRadio1">Pembayaran</label>
                                                     </div>
                                                     <div class="row mt-2">
                                                         <div class="col-3">
@@ -127,8 +115,7 @@
                                                             </div>
                                                             <div class="col-7">
                                                                 <div class="form-group ml-1">
-                                                                    <input type="number" name="p_dp" id="card-number"
-                                                                        class="form-control">
+                                                                    <input type="number" name="p_dp" id="card-number" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -146,8 +133,7 @@
                                                             </div>
                                                             <div class="col-10">
                                                                 <div class="form-group mx-sm-4">
-                                                                    <input type="date" name="p_t_dp" id="card-number"
-                                                                        class="form-control" style="width: 150px;">
+                                                                    <input type="date" name="p_t_dp" id="card-number" class="form-control" style="width: 150px;">
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -157,16 +143,13 @@
                                                             <label for="">Notes</label>
                                                         </div>
                                                         <div class="col-10">
-                                                            <textarea class="form-control" name="p_notes"
-                                                                id="example-textarea"
-                                                                rows="3"><?= $ltc['cp_notes'] ?></textarea>
+                                                            <textarea class="form-control" name="p_notes" id="example-textarea" rows="3"><?= $ltc['cp_notes'] ?></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="custom-control custom-radio custom-control-inline mt-3">
                                                         <input type="radio" class="custom-control-input" checked>
-                                                        <label class="custom-control-label font-15 font-weight-bold"
-                                                            for="BillingOptRadio1">Spesifikasi</label>
+                                                        <label class="custom-control-label font-15 font-weight-bold" for="BillingOptRadio1">Spesifikasi</label>
                                                     </div>
                                                     <div class="row">
                                                         <div class="row col-6 mt-2">
@@ -177,9 +160,7 @@
                                                             </div>
                                                             <div class="col-7">
                                                                 <div class="form-group ml-1">
-                                                                    <input type="number" name="s_ffa_max"
-                                                                        id="card-number" class="form-control"
-                                                                        value="<?= $ltc['k_ffa_max'] ?>">
+                                                                    <input type="text" name="s_ffa_max" id="card-number" class="form-control" value="<?= $ltc['k_ffa_max'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -197,9 +178,7 @@
                                                             </div>
                                                             <div class="col-7">
                                                                 <div class="form-group ml-1">
-                                                                    <input type="number" name="s_mi_max"
-                                                                        id="card-number" class="form-control"
-                                                                        value="<?= $ltc['k_mi_max'] ?>">
+                                                                    <input type="text" name="s_mi_max" id="card-number" class="form-control" value="<?= $ltc['k_mi_max'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -218,9 +197,7 @@
                                                         </div>
                                                         <div class="col-5">
                                                             <div class="form-group">
-                                                                <input type="text" name="s_dobi_min" id="card-number"
-                                                                    class="form-control"
-                                                                    value="<?= $ltc['k_dobi_min'] ?>">
+                                                                <input type="text" name="s_dobi_min" id="card-number" class="form-control" value="<?= $ltc['k_dobi_min'] ?>">
                                                             </div>
                                                         </div>
                                                     </div> <!-- end row -->
@@ -230,16 +207,13 @@
                                                             <label for="">Notes</label>
                                                         </div>
                                                         <div class="col-10">
-                                                            <textarea class="form-control" name="s_notes"
-                                                                id="example-textarea"
-                                                                rows="3"><?= $ltc['k_notes'] ?></textarea>
+                                                            <textarea class="form-control" name="s_notes" id="example-textarea" rows="3"><?= $ltc['k_notes'] ?></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="custom-control custom-radio custom-control-inline mt-3">
                                                         <input type="radio" class="custom-control-input" checked>
-                                                        <label class="custom-control-label font-15 font-weight-bold"
-                                                            for="BillingOptRadio1">Persyaratan</label>
+                                                        <label class="custom-control-label font-15 font-weight-bold" for="BillingOptRadio1">Persyaratan</label>
                                                     </div>
                                                     <h4 class="header-title mt-2">FFA PENALTY</h4>
                                                     <div class="row">
@@ -251,10 +225,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_ffa1"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;"
-                                                                        value="<?= $ltc['pfp_ffa1'] ?>">
+                                                                    <input type="text" name="pfp_ffa1" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pfp_ffa1'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -264,23 +235,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_min1"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;"
-                                                                        value="<?= $ltc['pfp_min1'] ?>">
+                                                                    <input type="text" name="pfp_min1" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pfp_min1'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_rp1" id="card-number"
-                                                                        class="form-control"
-                                                                        value="<?= $ltc['pfp_rp1'] ?>">
+                                                                    <input type="text" name="pfp_rp1" id="card-number" class="form-control" value="<?= $ltc['pfp_rp1'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -290,13 +255,10 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pfp_ppn1"
-                                                                        class="custom-control-input" id="customCheck1"
-                                                                        <?php if ($ltc['pfp_ppn1'] == 'on') {
+                                                                    <input type="checkbox" name="pfp_ppn1" class="custom-control-input" id="customCheck1" <?php if ($ltc['pfp_ppn1'] == 'on') {
                                                                                                                                                                 echo 'checked';
                                                                                                                                                             } ?>>
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck1">PPN</label>
+                                                                    <label class="custom-control-label" for="customCheck1">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -311,10 +273,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_ffa2"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;"
-                                                                        value="<?= $ltc['pfp_ffa2'] ?>">
+                                                                    <input type="text" name="pfp_ffa2" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pfp_ffa2'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -324,23 +283,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_min2"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;"
-                                                                        value="<?= $ltc['pfp_min2'] ?>">
+                                                                    <input type="text" name="pfp_min2" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pfp_min2'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_rp2" id="card-number"
-                                                                        class="form-control"
-                                                                        value="<?= $ltc['pfp_rp2'] ?>">
+                                                                    <input type="text" name="pfp_rp2" id="card-number" class="form-control" value="<?= $ltc['pfp_rp2'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -350,13 +303,10 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pfp_ppn2"
-                                                                        class="custom-control-input" id="customCheck2"
-                                                                        <?php if ($ltc['pfp_ppn2'] == 'on') {
+                                                                    <input type="checkbox" name="pfp_ppn2" class="custom-control-input" id="customCheck2" <?php if ($ltc['pfp_ppn2'] == 'on') {
                                                                                                                                                                 echo 'checked';
                                                                                                                                                             } ?>>
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck2">PPN</label>
+                                                                    <label class="custom-control-label" for="customCheck2">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -371,10 +321,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pfp_ffa3"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;"
-                                                                        value="<?= $ltc['pfp_ffa3'] ?>">
+                                                                    <input type="text" name="pfp_ffa3" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pfp_ffa3'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -404,9 +351,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_md1" id="card-number"
-                                                                        class="form-control" style="width: 65px;"
-                                                                        value="<?= $ltc['pdb_md1'] ?>">
+                                                                    <input type="text" name="pdb_md1" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pdb_md1'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -416,23 +361,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_min1"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;"
-                                                                        value="<?= $ltc['pdb_min1'] ?>">
+                                                                    <input type="text" name="pdb_min1" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pdb_min1'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_rp1" id="card-number"
-                                                                        class="form-control"
-                                                                        value="<?= $ltc['pdb_rp1'] ?>">
+                                                                    <input type="text" name="pdb_rp1" id="card-number" class="form-control" value="<?= $ltc['pdb_rp1'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -442,13 +381,10 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pdb_ppn1"
-                                                                        class="custom-control-input" id="customCheck3"
-                                                                        <?php if ($ltc['pdb_ppn1'] == 'on') {
+                                                                    <input type="checkbox" name="pdb_ppn1" class="custom-control-input" id="customCheck3" <?php if ($ltc['pdb_ppn1'] == 'on') {
                                                                                                                                                                 echo 'checked';
                                                                                                                                                             } ?>>
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck3">PPN</label>
+                                                                    <label class="custom-control-label" for="customCheck3">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -463,9 +399,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_md2" id="card-number"
-                                                                        class="form-control" style="width: 65px;"
-                                                                        value="<?= $ltc['pdb_md2'] ?>">
+                                                                    <input type="text" name="pdb_md2" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pdb_md2'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -475,23 +409,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_min2"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;"
-                                                                        value="<?= $ltc['pdb_min2'] ?>">
+                                                                    <input type="text" name="pdb_min2" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pdb_min2'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_rp2" id="card-number"
-                                                                        class="form-control"
-                                                                        value="<?= $ltc['pdb_rp2'] ?>">
+                                                                    <input type="text" name="pdb_rp2" id="card-number" class="form-control" value="<?= $ltc['pdb_rp2'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -501,13 +429,10 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pdb_ppn2"
-                                                                        class="custom-control-input" id="customCheck4"
-                                                                        <?php if ($ltc['pdb_ppn2'] == 'on') {
+                                                                    <input type="checkbox" name="pdb_ppn2" class="custom-control-input" id="customCheck4" <?php if ($ltc['pdb_ppn2'] == 'on') {
                                                                                                                                                                 echo 'checked';
                                                                                                                                                             } ?>>
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck4">PPN</label>
+                                                                    <label class="custom-control-label" for="customCheck4">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -522,9 +447,7 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_md3" id="card-number"
-                                                                        class="form-control" style="width: 65px;"
-                                                                        value="<?= $ltc['pdb_md3'] ?>">
+                                                                    <input type="text" name="pdb_md3" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pdb_md3'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -534,23 +457,17 @@
                                                             </div>
                                                             <div class="col-lg-2 col-3">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_min3"
-                                                                        id="card-number" class="form-control"
-                                                                        style="width: 65px;"
-                                                                        value="<?= $ltc['pdb_min3'] ?>">
+                                                                    <input type="text" name="pdb_min3" id="card-number" class="form-control" style="width: 65px;" value="<?= $ltc['pdb_min3'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
                                                                 <div class="form-group">
-                                                                    <label
-                                                                        for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
+                                                                    <label for="card-number"><b>%&nbsp;=&nbsp;Rp</b></label>
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-3 col-5">
                                                                 <div class="form-group">
-                                                                    <input type="number" name="pdb_rp3" id="card-number"
-                                                                        class="form-control"
-                                                                        value="<?= $ltc['pdb_rp3'] ?>">
+                                                                    <input type="text" name="pdb_rp3" id="card-number" class="form-control" value="<?= $ltc['pdb_rp3'] ?>">
                                                                 </div>
                                                             </div>
                                                             <div class="col-0">
@@ -560,13 +477,10 @@
                                                             </div>
                                                             <div class="col-1">
                                                                 <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox" name="pdb_ppn3"
-                                                                        class="custom-control-input" id="customCheck5"
-                                                                        <?php if ($ltc['pdb_ppn3'] == 'on') {
+                                                                    <input type="checkbox" name="pdb_ppn3" class="custom-control-input" id="customCheck5" <?php if ($ltc['pdb_ppn3'] == 'on') {
                                                                                                                                                                 echo 'checked';
                                                                                                                                                             } ?>>
-                                                                    <label class="custom-control-label"
-                                                                        for="customCheck5">PPN</label>
+                                                                    <label class="custom-control-label" for="customCheck5">PPN</label>
                                                                 </div>
                                                             </div>
                                                         </div> <!-- end row -->
@@ -578,9 +492,7 @@
                                                             <label for="">Notes</label>
                                                         </div>
                                                         <div class="col-10">
-                                                            <textarea class="form-control" name="mip_notes"
-                                                                id="example-textarea" rows="3"
-                                                                placeholder="Write some note.."><?= $ltc['mip_notes'] ?></textarea>
+                                                            <textarea class="form-control" name="mip_notes" id="example-textarea" rows="3" placeholder="Write some note.."><?= $ltc['mip_notes'] ?></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="row mt-1">
@@ -588,9 +500,7 @@
                                                             <label for="">Lainya</label>
                                                         </div>
                                                         <div class="col-10">
-                                                            <textarea class="form-control" name="mip_lainya"
-                                                                id="example-textarea" rows="3"
-                                                                placeholder="Write some note.."><?= $ltc['mip_lainya'] ?></textarea>
+                                                            <textarea class="form-control" name="mip_lainya" id="example-textarea" rows="3" placeholder="Write some note.."><?= $ltc['mip_lainya'] ?></textarea>
                                                         </div>
                                                     </div>
 
@@ -686,8 +596,7 @@
                                                     <!-- end Credit/Debit Card box-->
                                                     <div class="row mt-4">
                                                         <div class="col-6">
-                                                            <a href="<?= base_url('Stc/dataLtc') ?>"
-                                                                class="btn btn-secondary">
+                                                            <a href="<?= base_url('Stc/dataLtc') ?>" class="btn btn-secondary">
                                                                 <i class="mdi mdi-arrow-left"></i> Back to Data LTC
                                                             </a>
                                                         </div> <!-- end col -->

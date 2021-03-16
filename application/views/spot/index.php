@@ -32,23 +32,20 @@
                                                             <select name="filter" id="category" class="form-control">
                                                                 <option selected disabled>- Select company - </option>
                                                                 <?php foreach ($company as $c) : ?>
-                                                                <option value="<?= $c['id_company'] ?>">
-                                                                    <?= $c['company_name'] ?>
-                                                                </option>
+                                                                    <option value="<?= $c['id_company'] ?>">
+                                                                        <?= $c['company_name'] ?>
+                                                                    </option>
                                                                 <?php endforeach; ?>
                                                             </select>
                                                         </div>
                                                         <div class="col-3 col-lg-2">
-                                                            <button type="submit"
-                                                                class="btn btn-warning btn-sm">filter</button>
+                                                            <button type="submit" class="btn btn-warning btn-sm">filter</button>
                                                         </div>
                                                     </div>
                                                 </form>
                                             </div>
                                             <div class="col-4 col-lg-5">
-                                                <button class="btn btn-success btn-sm float-right" data-toggle="modal"
-                                                    data-target="#modalSpot"><i
-                                                        class="mdi mdi-plus"></i>Add&nbsp;SPOT</button>
+                                                <button class="btn btn-success btn-sm float-right" data-toggle="modal" data-target="#modalSpot"><i class="mdi mdi-plus"></i>Add&nbsp;SPOT</button>
                                             </div>
                                         </div>
                                         <p class="mb-3 mt-1">Filter : <?= $filtered ?></p>
@@ -70,40 +67,40 @@
                                             <tbody>
                                                 <?php $no = 1 ?>
                                                 <?php foreach ($spot as $s) : ?>
-                                                <tr>
-                                                    <td><?= $no++ ?></td>
-                                                    <td><?= date('d-m-Y', strtotime($s['spot_date'])) ?></td>
-                                                    <td><?= $s['spot_number'] ?></td>
-                                                    <td><?= $s['product_name'] ?></td>
-                                                    <td><?= $s['quantity'] ?></td>
-                                                    <td><?= $s['company_name'] ?></td>
-                                                    <td><?= $s['mitra_name'] ?></td>
+                                                    <tr>
+                                                        <td><?= $no++ ?></td>
+                                                        <td><?= date('d-m-Y', strtotime($s['spot_date'])) ?></td>
+                                                        <td><?= $s['spot_number'] ?></td>
+                                                        <td><?= $s['product_name'] ?></td>
+                                                        <td><?= $s['quantity'] ?></td>
+                                                        <td><?= $s['company_name'] ?></td>
+                                                        <td><?= $s['mitra_name'] ?></td>
 
-                                                    <?php if ($s['spot_status'] == 2) {
+                                                        <?php if ($s['spot_status'] == 2) {
                                                         ?>
-                                                    <td>
-                                                        <h4><span class="badge badge-success">Success</span></h4>
-                                                    </td>
-                                                    <?php
+                                                            <td>
+                                                                <h4><span class="badge badge-success">Success</span></h4>
+                                                            </td>
+                                                        <?php
                                                         } elseif ($s['is_active_spot'] == 0) {
                                                         ?>
-                                                    <td>
-                                                        <h4><span class="badge badge-danger">Deleted</span></h4>
-                                                    </td>
-                                                    <?php
+                                                            <td>
+                                                                <h4><span class="badge badge-danger">Deleted</span></h4>
+                                                            </td>
+                                                        <?php
                                                         } else {
                                                         ?>
-                                                    <td></td>
-                                                    <?php
+                                                            <td></td>
+                                                        <?php
                                                         } ?>
-                                                    <td>
-                                                        <?php if ($s['invoice_spot'] == 0) {
+                                                        <td>
+                                                            <?php if ($s['invoice_spot'] == 0) {
                                                             ?>
-                                                        <div class="row">
-                                                            <?= anchor('Spot/editSpot/' . $s['id_spot'] . '/' . $s['id_product'], '<button class="btn btn-sm btn-warning ml-1"><i
+                                                                <div class="row">
+                                                                    <?= anchor('Spot/editSpot/' . $s['id_spot'] . '/' . $s['id_product'], '<button class="btn btn-sm btn-warning ml-1"><i
                                                                     class="mdi mdi-lead-pencil"></i></button>')  ?>
-                                                            <button onclick="Swal.fire({
-                                                                    title: 'Hapus LTC?',
+                                                                    <button onclick="Swal.fire({
+                                                                    title: 'Hapus SPOT?',
                                                                     showCancelButton: true,
                                                                     confirmButtonColor: '#d33',
                                                                     cancelButtonColor: '#3085d6',
@@ -113,15 +110,15 @@
                                                                         window.location.href='Spot/deleteSpot/<?= $s['id_spot'] ?>';
                                                                         }
                                                                     })" class="btn btn-sm btn-danger ml-1">
-                                                                <i class="mdi mdi-trash-can-outline"></i>
-                                                            </button>
-                                                        </div>
-                                                        <?php
+                                                                        <i class="mdi mdi-trash-can-outline"></i>
+                                                                    </button>
+                                                                </div>
+                                                            <?php
                                                             } else {
                                                                 echo "<h2><span class='badge badge-success'><i class='mdi mdi-text-box-check-outline'></i></span></h2>";
                                                             } ?>
-                                                    </td>
-                                                </tr>
+                                                        </td>
+                                                    </tr>
                                                 <?php endforeach; ?>
                                             </tbody>
                                         </table>
@@ -157,7 +154,7 @@
                                 <select name="id_company" id="id_company" class="form-control" required>
                                     <option value="" selected disabled>- Pilih penjual -</option>
                                     <?php foreach ($company as $c) : ?>
-                                    <option value="<?= $c['id_company'] ?>"><?= $c['company_name'] ?></option>
+                                        <option value="<?= $c['id_company'] ?>"><?= $c['company_name'] ?></option>
                                     <?php endforeach; ?>
                                 </select>
                             </div>
@@ -166,7 +163,7 @@
                                 <select name="id_mitra" id="id_mitra" class="form-control" required>
                                     <option value="" selected disabled>- Pilih pembeli -</option>
                                     <?php foreach ($mitra as $m) : ?>
-                                    <option value="<?= $m['id_mitra'] ?>"><?= $m['mitra_name'] ?></option>
+                                        <option value="<?= $m['id_mitra'] ?>"><?= $m['mitra_name'] ?></option>
                                     <?php endforeach; ?>
                                 </select>
                             </div>
@@ -174,15 +171,14 @@
                         <div class="row">
                             <div class="form-group mt-1 mb-1 col-6">
                                 <label for="">Tanggal</label>
-                                <input type="date" class="form-control" id="spot_date" name="spot_date"
-                                    placeholder="Alamat Mitra" required>
+                                <input type="date" class="form-control" id="spot_date" name="spot_date" placeholder="Alamat Mitra" required>
                             </div>
                             <div class="form-group mt-1 mb-1 col-6">
                                 <label for="">Jenis Produk</label>
                                 <select name="id_product" id="id_product" class="form-control" required>
                                     <option value="" selected disabled>- Pilih produk -</option>
                                     <?php foreach ($produk as $p) : ?>
-                                    <option value="<?= $p['id_product'] ?>"><?= $p['product_name'] ?></option>
+                                        <option value="<?= $p['id_product'] ?>"><?= $p['product_name'] ?></option>
                                     <?php endforeach; ?>
                                 </select>
                             </div>
@@ -190,8 +186,7 @@
                         <div class="row mt-1">
                             <div class="form-group mb-1 col-6">
                                 <label for="">Kuantitas</label>
-                                <input type="number" class="form-control" id="quantity" name="quantity"
-                                    placeholder="Kuantitas" required>
+                                <input type="number" class="form-control" id="quantity" name="quantity" placeholder="Kuantitas" required>
                             </div>
                             <div class="form-group mb-1 col-6">
                                 <label for="">Satuan</label>
@@ -205,8 +200,7 @@
                         <div class="row mt-1">
                             <div class="form-group mb-1 col-6">
                                 <label for="">Harga Satuan</label>
-                                <input type="number" class="form-control" id="unit_price" name="unit_price"
-                                    placeholder="Harga satuan" required>
+                                <input type="number" class="form-control" id="unit_price" name="unit_price" placeholder="Harga satuan" required>
                             </div>
                             <div class="custom-control custom-checkbox mt-4 ml-2">
                                 <input type="checkbox" name="ppn" class="custom-control-input" id="customCheck1">

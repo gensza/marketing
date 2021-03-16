@@ -11,14 +11,14 @@ class Ltc extends CI_Controller
             redirect('Auth');
         }
     }
-    
+
     public function index()
     {
         $data['title'] = "LTC";
         $data['filtered'] = 'no filter detected ..';
 
-        $data['company'] = $this->db->get('tb_company')->result_array();
-        $data['mitra'] = $this->db->get('tb_mitra')->result_array();
+        $data['company'] = $this->db->get_where('tb_company', ['is_active_c' => '1'])->result_array();
+        $data['mitra'] = $this->db->get_where('tb_mitra', ['is_active_m' => '1'])->result_array();
         $data['produk'] = $this->db->get('tb_product')->result_array();
 
         if ($this->input->post('filter') == 0) {
@@ -454,7 +454,6 @@ class Ltc extends CI_Controller
         $this->load->view('templates/sidebar', $data);
         $this->load->view('ltc/detail_ltc', $data);
         $this->load->view('templates/footer');
-
     }
 
     public function getRomawi($month)
